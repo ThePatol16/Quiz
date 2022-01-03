@@ -1,0 +1,57 @@
+.textstyle {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+}
+
+.textunder {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.backcolor {
+    background-color: pink;
+}
+
+.pola {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pola>* {
+    width: 370px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.submit {
+    justify-content: space-evenly;
+    display: flex;
+    background: linear-gradient(to left, red, orange, yellow, green, cyan, blue, violet);
+    height: 40px;
+    margin-top: 5px;
+}
+.submit>*{
+    font-weight: bold;
+    width: 300px;
+}
+
+.reso {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reso>* {
+    align-items: center;
+    width: 195px;
+    height: 195px;
+    padding: 30px;
+}
